@@ -1,0 +1,5 @@
+# Only README.md is published to the public profile repo.
+# Local-only files (CLAUDE.md, drafts, scratch, etc.) stay out of git.
+*
+!README.md
+!.gitignore

@@ -1,8 +1,8 @@
-# huaruic
+# Ernest
 
-**Cross-stack builder. AI agents × onchain primitives.**
+**Cross-stack builder. AI agents. Onchain primitives. Privacy by default.**
 
-🛠️ Now — Heads-down on **[zamadrop](https://zamadrop.xyz)** (Zama fhEVM): confidential allocations, public accountability.
+🛠️ Now — Heads-down on **[zamadrop](https://zamadrop.xyz)** & **[zamaVote](https://zama-vote.vercel.app)** (Zama fhEVM): confidential allocations and encrypted ballots, public accountability.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
@@ -23,6 +23,7 @@
 **Onchain — confidential, accountable**
 
 - 🔐 **[zamadrop](https://zamadrop.xyz)** — confidential token distribution on Zama fhEVM. Private allocations, public accountability.
+- 🗳️ **[zamaVote](https://zama-vote.vercel.app)** — confidential voting dApp on Zama fhEVM. Encrypted ballots, homomorphic tally, public results.
 - 🧠 **[ao-memory](https://github.com/huaruic/ao-memory)** — decentralized memory preservation and sharing on the AO ecosystem.
 - 🏗️ **[HyperBuilders Hangzhou 2025](https://github.com/huaruic/HyperBuilders_Hangzhou_2025)** — co-organized 5-day AO + HyperBEAM hacker house in Liangzhu, Hangzhou. Selected 4 builders sponsored to Arweave Day Singapore.
 

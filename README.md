@@ -1,41 +1,54 @@
-# Ernest
+<p align="center">
+  <img src="assets/banner.jpg" alt="" width="100%">
+</p>
 
-**Cross-stack builder. AI agents. Onchain primitives. Privacy by default.**
+<p align="center">
+  <img src="assets/agent.svg" alt="An agent answering 'who is Ernest?' in a terminal" width="100%">
+</p>
 
-🛠️ Now — Heads-down on **[zamadrop](https://zamadrop.xyz)** & **[zamaVote](https://zama-vote.vercel.app)** (Zama fhEVM): confidential allocations and encrypted ballots, public accountability.
+<p align="center">
+  <a href="https://github.com/huaruic/huaruic/issues/new?title=ask%3A%20"><b>Ask my agent something</b></a>
+</p>
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Zama%20fhEVM](https://img.shields.io/badge/-Zama%20fhEVM-FFD200?style=flat-square&logoColor=black)
-![Arweave%20%2F%20AO](https://img.shields.io/badge/-Arweave%20%2F%20AO-222?style=flat-square)
+### Recently asked
 
----
+<!-- ASK:START -->
+Nobody has asked anything yet.
+<!-- ASK:END -->
 
-## Current Projects
+## Projects
 
-**AI — local-first, privacy-first**
+### AI
 
-- 🦞 **[CatClaw](https://catclaw.app)** — privacy-first local AI agent for macOS. Native bridges to Chinese-first IM (WeChat / Feishu / DingTalk). Powered by [OpenClaw](https://openclaw.ai).
-- 🛠️ **[ClawSetup](https://clawsetup.netlify.app)** — one-click OpenClaw installer for macOS. Visual config UI, no terminal.
-- 🎙️ **[CleanCut](https://github.com/huaruic/cleancut)** — AI-powered speech purification pipeline.
-- 📘 **[Agentic Design Patterns (Chinese edition)](https://github.com/huaruic/agentic-design-patterns-cn)** — bringing the canonical agent-design playbook to Chinese readers.
+- [CatClaw](https://catclaw.app): the OpenClaw agent as a Mac app
+- [ClawSetup](https://clawsetup.netlify.app): one-click OpenClaw installer for macOS
+- [Xingqiao 星桥](https://xingqiaosub.com): ChatGPT and Claude subscriptions for mainland China
+- [huaruic/skills](https://github.com/huaruic/skills): my Claude Code and Codex skills
+- [hermes-claude](https://github.com/huaruic/hermes-claude): routing rules and guardrails for coding agents
+- [According.Work](https://according.work): developer collaboration platform I co-founded
+- [Open Memory](https://github.com/memory-orb): local-first memory for your AI chats
+- [CleanCut](https://github.com/huaruic/cleancut): speech cleanup pipeline
 
-**Onchain — confidential, accountable**
+### Web3
 
-- 🔐 **[zamadrop](https://zamadrop.xyz)** — confidential token distribution on Zama fhEVM. Private allocations, public accountability.
-- 🗳️ **[zamaVote](https://zama-vote.vercel.app)** — confidential voting dApp on Zama fhEVM. Encrypted ballots, homomorphic tally, public results.
-- 🧠 **[ao-memory](https://github.com/huaruic/ao-memory)** — decentralized memory preservation and sharing on the AO ecosystem.
-- 🏗️ **[HyperBuilders Hangzhou 2025](https://github.com/huaruic/HyperBuilders_Hangzhou_2025)** — co-organized 5-day AO + HyperBEAM hacker house in Liangzhu, Hangzhou. Selected 4 builders sponsored to Arweave Day Singapore.
+- [ZamaDrop](https://zamadrop.xyz): encrypted airdrops on Zama fhEVM
+- [ZamaVote](https://zama-vote.vercel.app): encrypted ballots, public result
+- [CoTrading](https://cotrading.ai): on-chain deposits and swaps on Base
+- [GoHacker.ai](https://www.gohacker.ai): rewards for open-source contributors
+- [ao-memory](https://github.com/huaruic/ao-memory): memory storage on AO
 
-**Side**
+## Timeline
 
-- 🏝️ **[NSLife](https://ns-life-six.vercel.app)** — hyper-local lifestyle guide for Forest City & Johor Bahru.
-- 🎭 **[Biaoren Chaos Quiz](https://github.com/huaruic/biaoren-chaos-quiz)** — immersive personality test inspired by Blades of the Guardians.
+<p align="center">
+  <img src="assets/career.svg" alt="My career printed as git log --graph" width="100%">
+</p>
 
----
+## Hackathons
 
-## Connect
+<p align="center">
+  <img src="assets/achievements.svg" alt="Hackathon results" width="100%">
+</p>
 
-- ✉️ [ernestchen247@gmail.com](mailto:ernestchen247@gmail.com)
-- 🐦 [@0xErnest247](https://x.com/0xErnest247)
-- ✍️ [huaruic.github.io](https://huaruic.github.io)
+<p align="center">
+  ernestchen247@gmail.com · <a href="https://x.com/0xErnest247">X</a> · <a href="https://t.me/ErnestAgent">Telegram</a> · <a href="https://huaruic.github.io">Blog</a>
+</p>

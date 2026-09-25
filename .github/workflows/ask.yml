@@ -1,0 +1,50 @@
+name: ask
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ask
+  cancel-in-progress: false
+
+jobs:
+  answer:
+    if: startsWith(github.event.issue.title, 'ask:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      N: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --prefix agent --no-audit --no-fund
+
+      # Issue text goes through env vars only, never ${{ }} inside run:, so it can't inject shell.
+      - run: node agent/ask.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+      - run: |
+          gh issue comment "$N" --body-file reply.md
+          gh issue close "$N" --reason completed
+
+      - run: |
+          git config user.name "huaruic-agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md agent/log.json
+          git diff --cached --quiet || { git commit -m "chore(agent): answer #$N" && git push; }
+
+      - if: failure()
+        run: gh issue comment "$N" --body "The agent tripped over something on this one. Ernest gets a notification and will take a look."

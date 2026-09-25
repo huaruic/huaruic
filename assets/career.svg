@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="470" viewBox="0 0 840 470" role="img" aria-label="Career as a git log. 2016 CQUT software engineering; 2020 Hupu live scoreboards; 2021 ByteDance Douyin orders; 2023 Xiaohongshu reliability; 2025 According.Work co-founder; 2025 CoTrading; community branch with Token2049 pitch and a 600+ builder meetup; 2026 indie: CatClaw, Xingqiao, ZamaDrop, ZamaVote.">
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .dim { fill: #7d8590; } .w { fill: #e6edf3; } .g { fill: #3fb950; } .y { fill: #ffd200; } .p { fill: #d2a8ff; } .b { fill: #79c0ff; } .sha { fill: #e3b341; } .r { fill: #ff7b72; }
+    @keyframes type  { to { transform: translateX(345.6px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes hide  { to { opacity: 0; } }
+    @keyframes show  { to { opacity: 1; } }
+    @keyframes row   { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+    @keyframes ping  { from { r: 5; opacity: .9; } to { r: 16; opacity: 0; } }
+    .cover { animation: type 1s steps(36) .3s forwards; }
+    .cur1  { animation: blink 1s steps(1) infinite, hide 0s 1.4s forwards; }
+    .row   { opacity: 0; animation: row .3s ease-out forwards; }
+    .end   { opacity: 0; animation: show .01s 4.1s forwards; }
+    .cur2  { animation: blink 1s steps(1) infinite; }
+    .ping  { opacity: 0; animation: ping 1.6s ease-out 1.6s infinite; }
+    .l1 { stroke: #ffd200; } .l2 { stroke: #d2a8ff; }
+    path, line { fill: none; stroke-width: 2.5; }
+    @media (prefers-reduced-motion: reduce) { * { animation-duration: .01s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; } }
+  </style>
+  <defs><clipPath id="win"><rect width="840" height="470" rx="12"/></clipPath></defs>
+
+  <g clip-path="url(#win)">
+    <rect width="840" height="470" fill="#0d1117"/>
+    <rect width="840" height="36" fill="#161b22"/>
+    <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+    <text x="420" y="23" text-anchor="middle" class="m dim" font-size="13">ernest@huaruic: ~/career</text>
+  </g>
+  <rect x=".5" y=".5" width="839" height="469" rx="12" fill="none" stroke="#30363d"/>
+
+  <text x="40" y="72" class="m g" font-size="16">$</text>
+  <text x="58" y="72" class="m w" font-size="16" textLength="345.6" lengthAdjust="spacing">git log --graph --oneline ernest/life</text>
+  <g class="cover">
+    <rect x="58" y="54" width="360" height="24" fill="#0d1117"/>
+    <rect class="cur1" x="58" y="57" width="9" height="19" fill="#e6edf3"/>
+  </g>
+
+  <!-- rows: y = 108 + i*34 ; lane1 x=46 (career), lane2 x=70 (off-keyboard) ; delay = 1.4 + i*.25 -->
+  <g class="m" font-size="13">
+    <g class="row" style="animation-delay:1.4s">
+      <line class="l1" x1="46" y1="108" x2="46" y2="142"/>
+      <circle class="ping" cx="46" cy="108" r="5" fill="none" stroke="#3fb950" stroke-width="2"/>
+      <circle cx="46" cy="108" r="6" fill="#3fb950"/>
+      <text x="100" y="112"><tspan class="sha">7e1a0c2</tspan> <tspan class="dim">2026</tspan> <tspan class="b">(</tspan><tspan class="g">HEAD → main</tspan><tspan class="b">)</tspan> <tspan class="g">feat(indie):</tspan> <tspan class="w">CatClaw · Xingqiao · ZamaDrop · ZamaVote</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:1.65s">
+      <line class="l1" x1="46" y1="142" x2="46" y2="176"/>
+      <path class="l2" d="M46 142 C46 160 70 158 70 176"/>
+      <circle cx="46" cy="142" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="146"><tspan class="sha">5b93d1f</tspan> <tspan class="dim">2026</tspan> <tspan class="w">Merge branch 'off-keyboard'</tspan><tspan class="dim"> (people first, not tools)</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:1.9s">
+      <line class="l1" x1="46" y1="176" x2="46" y2="210"/>
+      <line class="l2" x1="70" y1="176" x2="70" y2="210"/>
+      <circle cx="70" cy="176" r="5" fill="#0d1117" stroke="#d2a8ff" stroke-width="2.5"/>
+      <text x="100" y="180"><tspan class="sha">c04e7aa</tspan> <tspan class="dim">2026</tspan> <tspan class="p">feat(community):</tspan> <tspan class="w">directed OpenClaw Show &amp; Tell SH</tspan><tspan class="dim"> · 600+ builders</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.15s">
+      <line class="l1" x1="46" y1="210" x2="46" y2="244"/>
+      <line class="l2" x1="70" y1="210" x2="70" y2="244"/>
+      <circle cx="70" cy="210" r="5" fill="#0d1117" stroke="#d2a8ff" stroke-width="2.5"/>
+      <text x="100" y="214"><tspan class="sha">91d2b6e</tspan> <tspan class="dim">2025</tspan> <tspan class="p">feat(community):</tspan> <tspan class="w">Token2049 stage pitch</tspan><tspan class="dim"> · Chiang Mai 706 residency</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.4s">
+      <line class="l1" x1="46" y1="244" x2="46" y2="278"/>
+      <path class="l2" d="M70 244 C70 262 46 260 46 278"/>
+      <circle cx="46" cy="244" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="248"><tspan class="sha">3fa8e21</tspan> <tspan class="dim">2025</tspan> <tspan class="y">feat(web3):</tspan> <tspan class="w">CoTrading</tspan><tspan class="dim">: deposits credited exactly once, 0x swaps on Base</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.65s">
+      <line class="l1" x1="46" y1="278" x2="46" y2="312"/>
+      <circle cx="46" cy="278" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="282"><tspan class="sha">e62b0d4</tspan> <tspan class="dim">2025</tspan> <tspan class="y">feat(founder):</tspan> <tspan class="w">According.Work</tspan><tspan class="dim">: 0 to 1,375 devs, backed by MiraclePlus</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.9s">
+      <line class="l1" x1="46" y1="312" x2="46" y2="346"/>
+      <circle cx="46" cy="312" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="316"><tspan class="sha">8c7f3a9</tspan> <tspan class="dim">2023</tspan> <tspan class="r">fix(xiaohongshu):</tspan> <tspan class="w">fault-drill coverage 70% → 90%</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:3.15s">
+      <line class="l1" x1="46" y1="346" x2="46" y2="380"/>
+      <circle cx="46" cy="346" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="350"><tspan class="sha">2d45be1</tspan> <tspan class="dim">2021</tspan> <tspan class="b">perf(bytedance):</tspan> <tspan class="w">Douyin order search P99 &lt; 200ms</tspan><tspan class="dim"> · 10M+ rows</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:3.4s">
+      <line class="l1" x1="46" y1="380" x2="46" y2="414"/>
+      <circle cx="46" cy="380" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="384"><tspan class="sha">a90f6c3</tspan> <tspan class="dim">2020</tspan> <tspan class="y">feat(hupu):</tspan> <tspan class="w">live scoreboards that survive game night</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:3.65s">
+      <circle cx="46" cy="414" r="5" fill="#0d1117" stroke="#ffd200" stroke-width="2.5"/>
+      <text x="100" y="418"><tspan class="sha">0000001</tspan> <tspan class="dim">2016</tspan> <tspan class="dim">init:</tspan> <tspan class="w">hello, world</tspan><tspan class="dim"> (B.E. Software Engineering, CQUT)</tspan></text>
+    </g>
+  </g>
+
+  <g class="end">
+    <text x="40" y="452" class="m g" font-size="16">$</text>
+    <rect class="cur2" x="58" y="437" width="9" height="19" fill="#e6edf3"/>
+  </g>
+</svg>

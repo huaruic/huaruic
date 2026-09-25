@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/heatmap.svg" alt="My GitHub contributions over the last year" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/agent.svg" alt="An agent answering 'who is Ernest?' in a terminal" width="100%">
 </p>
 

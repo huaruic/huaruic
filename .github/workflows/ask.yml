@@ -9,7 +9,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: ask
+  group: profile-write
   cancel-in-progress: false
 
 jobs:
